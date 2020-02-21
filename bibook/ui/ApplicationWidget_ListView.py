@@ -32,5 +32,5 @@ class Ui_ApplicationWidget(object):
 
     def retranslateUi(self, ApplicationWidget):
         ApplicationWidget.setWindowTitle(QtWidgets.QApplication.translate("ApplicationWidget", "BiBook", None, -1))
-        self.borrowBookButton.setText(QtWidgets.QApplication.translate("ApplicationWidget", "Borrow the book", None, -1))
+        self.borrowBookButton.setText(QtWidgets.QApplication.translate("ApplicationWidget", "Borrow / Retrieve Book", None, -1))
 
